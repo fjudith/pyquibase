@@ -1,4 +1,6 @@
 # Pyquibase
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffjudith%2Fpyquibase.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ffjudith%2Fpyquibase?ref=badge_shield)
+
 
 Pyquibase is a Python wrapper for [liquibase](http://www.liquibase.org/). 
 There are other liquibase wrapper for python but they all require change log files to be in YAML format. Since I want to use xml file for liquibase, I built my own liquibase wrapper for python.
@@ -64,3 +66,7 @@ if __name__ == '__main__':
 ```python
 pyquibase.rollback('tag')
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffjudith%2Fpyquibase.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ffjudith%2Fpyquibase?ref=badge_large)
